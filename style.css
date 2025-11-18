@@ -1,6 +1,6 @@
-.slider img{
+.slider .carousel-inner img{
     width: 100%;
-    height: 500px;
+    height: 700px;
     object-fit: cover;
 }
 .about .row{
@@ -22,7 +22,8 @@
 }
 .about h2{
     text-transform: uppercase;
-    font-size: 44px;
+    font-size: 46px;
+    color: green;
 }
 .farming img{
     width: 100%;
@@ -33,7 +34,7 @@
 }
 .hero-farming img{
     width: 100%;
-    height: 300px;
+    height: 600px;
     object-fit: cover;
 }
 .hero-farming{
@@ -57,15 +58,46 @@
     font-weight: bold;
 }
 
+/*
+  font-family: "Stack Sans Text", sans-serif;
+  font-family: "Open Sans", sans-serif; */
 
 
+.future h2{
+    color: green;
+    /* text-shadow: 0px 6px 7px; */
+    font-size: 40px;
+    padding: 43px;
+    /* text-transform: uppercase; */
+    text-decoration: dashed;
+}
+.hero-farming h2{
+        font-size: 79px;
+    /* color: #ff0018; */
+    font-weight: bold;
+    /* color: black; */
+    color: #196666;
+}
+.hero-farming h3{
+    font-size: 28ox;
+        color: black;
+        font-size: 38px;
+        font-weight: bold;
+        text-align: center;
+}
+.hero-farming img{
+    opacity: 0.4;
+}
 
 
-
-
-
-
-
+.pest .caption{
+        color: green;
+    /* text-shadow: 0px 6px 7px; */
+    font-size: 40px;
+    padding: 43px;
+    /* text-transform: uppercase; */
+    text-decoration: dashed;
+}
 .header {
     position: sticky;
     top: 0;
@@ -167,4 +199,76 @@
 .document .card-hight2{
      max-height: 307px;
  
+}
+
+
+
+
+
+
+.ipm-section h2 {
+    color: #1a7f37;
+}
+
+.ipm-intro {
+    font-size: 18px;
+    color: #555;
+}
+
+.ipm-card {
+    transition: 0.3s;
+}
+
+.ipm-card:hover {
+    transform: translateY(-6px);
+    background: #e9ffe6;
+}
+.pest-section:hover{
+    transform: translateY(-6px);
+    background: #e9ffe6;
+}
+.ipm-list li,
+.ipm-tips li {
+    margin-bottom: 10px;
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+.tips-box {
+    border-left: 6px solid #1a7f37;
+     border-right: 6px solid #1a7f37;
+}
+
+.ipm-tips li::before {
+    content: "✔ ";
+    color: #1a7f37;
+    font-weight: bold;
+}
+
+
+.contact-info-section {
+    background: #f3f8ff;
+}
+
+.info-box {
+    border-left: 6px solid #0d6efd;
+     border-right: 6px solid #0d6efd;
+}
+
+.info-item strong {
+    font-size: 16px;
+    color: #0d6efd;
+}
+
+.info-item p {
+    font-size: 16px;
+    color: #333;
+}
+
+.info-box:hover {
+    background: #e8f0ff;
+    transition: 0.3s;
+}
+.contact-info-section h2{
+        text-shadow: 2px 1px 4px black;
 }
